@@ -192,11 +192,11 @@ ax0.set_yticks(np.arange(range_y_min, range_y_max, 1))
 
 # Value of complex number
 txt_cx_a = ax0.text(complex_number_a.real, complex_number_a.imag, "A(" + str(complex_number_a.real) + ","
-                    + str(complex_number_a.imag) + ")")
+                    + str(complex_number_a.imag) + ")", color="blue")
 txt_cx_b = ax0.text(complex_number_b.real, complex_number_b.imag, "B(" + str(complex_number_b.real) + ","
-                    + str(complex_number_b.imag) + ")")
+                    + str(complex_number_b.imag) + ")", color="green")
 txt_cx_c = ax0.text(complex_number_c.real, complex_number_c.imag, "C(" + str(complex_number_c.real) + ","
-                    + str(complex_number_c.imag) + ")")
+                    + str(complex_number_c.imag) + ")", color="red")
 
 # Quiver
 x, y = 0., 0.
